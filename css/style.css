@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    max-width: 1600px;
+}
+
+.outerbox {
+    max-width: 1600px;
+}
+
+.container {
+    max-width: 1178px;
+    margin: 0 auto;
+
+}
+
+.menu {
+    max-width: 1178px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+#list {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+
+}
+
+#anchors { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    vertical-align: middle;
+
+}
+
+#anchors li {
+    float:right;
+    margin-right: 38px;
+}
+
+#anchors li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
