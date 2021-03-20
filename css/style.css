@@ -3,18 +3,21 @@
     margin:0;
 }
 
-body {
-    max-width: 1600px;
-}
+
 
 .outerbox {
     max-width: 1600px;
+    margin : 0 auto;
 }
 
 .container {
     max-width: 1178px;
     margin: 0 auto;
 
+}
+
+header {
+    background-image: url("img/background_header.jpg");
 }
 
 .menu {
@@ -29,26 +32,34 @@ body {
     display: flex;
     align-self: center;
     flex-wrap: wrap;
-
 }
 
 #anchors { 
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: inline;
-    vertical-align: middle;
-
 }
 
 #anchors li {
-    float:right;
+    display:inline;
     margin-right: 38px;
 }
+
 
 #anchors li a {
     text-decoration: none;
     text-transform: uppercase;
+    font-family: gotham;
     font-size: 14px;
+    
+}
+
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: "gotham";
+    src: url("../fonts/gotham.woff") format('woff');
+    font-weight: bold;
+
 }
